@@ -1,0 +1,12 @@
+# 项目名称
+project_name: mywork
+# 接口协议
+protocal: http
+# swagger配置信息
+swagger_info:
+  # swagger的抓取地址，格式为：IP:PORT
+  swagger_host: 172.24.155.3:8091
+  # 注意此处若有项目名称，格式必须是：/项目名，否则，直接为空白即可
+  swagger_basePath: /
+  # swagger的抓取接口名称，一般情况下，固定不变
+  swagger_path: /v2/api-docs
